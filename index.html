@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma'had Ul Baari International Online Academy | Online Quran, Tajweed & Islamic Studies</title>
+  <meta name="description" content="Ma'had Ul Baari International Online Academy — A Global Journey of Islamic Learning. 1-on-1 personalized live online Quran, Tajweed, Hifz, and Islamic studies with certified male and female tutors across UK, USA, Canada, Australia, and Europe.">
+  <meta name="keywords" content="Online Quran Academy, Quran with Tajweed, Hifz Online, Female Quran Teacher, Noorani Qaida, Learn Quran Online UK USA Canada Australia, Islamic Studies, Mahad Ul Baari">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, and Amiri for Arabic Calligraphy -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet (in css/ folder) -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       TOP ANNOUNCEMENT / TRUST BAR
+       ========================================================================== -->
+  <div class="announcement-bar">
+    <div class="container announcement-inner">
+      <div class="announcement-badge">
+        <span class="highlight-pill">Free Trial</span>
+        <span>✨ Book a 30-Minute Free Assessment Class &bull; No Credit Card Required</span>
+      </div>
+      <div class="announcement-links">
+        <span class="announcement-link">
+          <i class="fa-solid fa-earth-americas" style="color: #38BDF8;"></i>
+          Serving UK, USA, Canada, Australia & Europe
+        </span>
+        <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" class="announcement-link">
+          <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+          <span>+92 320 1291147</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       STICKY TOP NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      
+      <!-- Brand Identity / Logo -->
+      <a href="#hero" class="brand-identity" title="Ma'had Ul Baari International Online Academy">
+        <img src="assets/logo.png" alt="Ma'had Ul Baari Logo" class="brand-logo-img">
+        <div class="brand-text-group">
+          <div class="brand-main-name">
+            <span class="metallic-silver">MA'HAD</span>
+            <span class="royal-blue">UL BAARI</span>
+          </div>
+          <div class="brand-sub-badge">International Online Academy</div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#courses" class="nav-link">Courses</a>
+        <a href="#female-tutors" class="nav-link">Female Tutors</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#why-us" class="nav-link">About Us</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Currency Switcher & CTA Buttons -->
+      <div class="nav-actions">
+        <!-- Dynamic Currency Switcher Dropdown -->
+        <div class="currency-selector-wrap" title="Change Currency">
+          <select id="currencySelector" class="currency-select" aria-label="Select Currency">
+            <option value="USD" selected>USD ($)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="EUR">EUR (€)</option>
+            <option value="AUD">AUD (A$)</option>
+            <option value="CAD">CAD (C$)</option>
+          </select>
+          <i class="fa-solid fa-chevron-down currency-icon"></i>
+        </div>
+
+        <!-- Primary CTA Button -->
+        <button type="button" class="btn btn-primary btn-sm open-trial-modal-btn">
+          <i class="fa-regular fa-calendar-check"></i>
+          <span>Book Free Trial</span>
+        </button>
+
+        <!-- Mobile Drawer Hamburger Toggle -->
+        <button type="button" class="mobile-nav-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Offcanvas Navigation Drawer -->
+  <div class="mobile-drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="brand-identity">
+        <img src="assets/logo.png" alt="Logo" style="width: 38px; height: 38px;">
+        <span style="font-weight: 800; font-size: 1.1rem; color: #fff;">MA'HAD UL BAARI</span>
+      </div>
+      <button type="button" class="modal-close-btn" id="drawerCloseBtn" aria-label="Close Menu" style="position: static;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <nav class="drawer-nav-list">
+      <a href="#hero" class="drawer-link">Home</a>
+      <a href="#courses" class="drawer-link">Courses & Curriculum</a>
+      <a href="#female-tutors" class="drawer-link">Female Quran Tutors</a>
+      <a href="#tajweed-showcase" class="drawer-link">Interactive Digital Mushaf</a>
+      <a href="#how-it-works" class="drawer-link">How It Works</a>
+      <a href="#pricing" class="drawer-link">Plans & Pricing</a>
+      <a href="#why-us" class="drawer-link">Why Choose Us</a>
+      <a href="#testimonials" class="drawer-link">Student Reviews</a>
+      <a href="#faq" class="drawer-link">Frequently Asked Questions</a>
+      <a href="#contact" class="drawer-link">Direct Contact</a>
+    </nav>
+    <div class="drawer-footer">
+      <div class="currency-selector-wrap" style="width: 100%;">
+        <select id="mobileCurrencySelector" class="currency-select" style="width: 100%;">
+          <option value="USD">USD ($) - United States Dollar</option>
+          <option value="GBP">GBP (£) - British Pound Sterling</option>
+          <option value="EUR">EUR (€) - Eurozone</option>
+          <option value="AUD">AUD (A$) - Australian Dollar</option>
+          <option value="CAD">CAD (C$) - Canadian Dollar</option>
+        </select>
+      </div>
+      <button type="button" class="btn btn-primary open-trial-modal-btn" style="width: 100%;">
+        <i class="fa-regular fa-calendar-check"></i>
+        <span>Book Free Trial Class</span>
+      </button>
+      <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Chat on WhatsApp</span>
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION (Deep Midnight Navy #122032 Background)
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-geometric-bg"></div>
+      <div class="hero-glow-orb hero-glow-1"></div>
+      <div class="hero-glow-orb hero-glow-2"></div>
+
+      <div class="container hero-layout">
+        
+        <!-- Hero Left Column: Copy & CTAs -->
+        <div class="hero-content">
+          
+          <!-- Bismillah & Tagline Pill -->
+          <div class="hero-bismillah-tag">
+            <span class="arabic-bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Master the Holy Quran from Home with <span class="metallic-blue-text">Certified 1-on-1 Tutors</span>
+          </h1>
+
+          <div class="hero-subheadline">
+            <span class="hero-tagline-quote">"A Global Journey of Islamic Learning"</span>
+            Personalized online Quran, Tajweed, and Hifz classes for kids, adults, and sisters across all time zones. Learn with compassionate, Ijazah-certified male and female teachers from the comfort of your home.
+          </div>
+
+          <!-- Dual CTAs -->
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-primary btn-lg open-trial-modal-btn" id="heroTrialBtn">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Start Your Free Trial Class</span>
+            </button>
+
+            <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+              <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i>
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges Row -->
+          <div class="trust-badges-row">
+            <div class="trust-badge-item">
+              <div class="trust-badge-icon">
+                <i class="fa-solid fa-user-check"></i>
+              </div>
+              <span>1-on-1 Live Interactive Classes</span>
+            </div>
+
+            <div class="trust-badge-item">
+              <div class="trust-badge-icon">
+                <i class="fa-solid fa-venus-mars"></i>
+              </div>
+              <span>Dedicated Male & Female Tutors</span>
+            </div>
+
+            <div class="trust-badge-item">
+              <div class="trust-badge-icon">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+              </div>
+              <span>24/7 Flexible Scheduling</span>
+            </div>
+
+            <div class="trust-badge-item">
+              <div class="trust-badge-icon">
+                <i class="fa-solid fa-certificate"></i>
+              </div>
+              <span>Ijazah-Certified Teachers</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Hero Right Column: Interactive Digital Classroom Experience Card -->
+        <div class="hero-visual">
+          <div class="hero-classroom-card">
+            
+            <!-- Classroom Header -->
+            <div class="hero-card-header">
+              <div class="live-indicator">
+                <span class="live-pulse"></span>
+                <span>Live 1-on-1 Session</span>
+              </div>
+              <div class="classroom-session-info">
+                <i class="fa-solid fa-location-dot" style="color: #38BDF8;"></i> Student: London, UK (GMT)
+              </div>
+            </div>
+
+            <!-- Digital Mushaf Interactive Snippet -->
+            <div class="mushaf-sample-box">
+              <div class="mushaf-surah-tag">
+                <span><i class="fa-solid fa-book-quran" style="color: #38BDF8;"></i> Surah Al-Fatihah (Ayah 1-2)</span>
+                <span class="badge" style="color: #34D399; font-weight: 700;">Tajweed Rules Active</span>
+              </div>
+              <div class="mushaf-arabic-verse" id="heroMushafText">
+                بِسْمِ <span class="tajweed-madd">اللَّـهِ</span> <span class="tajweed-ghunnah">الرَّحْمَـٰنِ</span> الرَّحِيمِ ﴿١﴾<br>
+                الْحَمْدُ <span class="tajweed-madd">لِلَّـهِ</span> رَبِّ الْعَالَمِينَ ﴿٢﴾
+              </div>
+              <div class="mushaf-translation" id="heroTranslationText">
+                "In the name of Allah, the Entirely Merciful, the Especially Merciful. All praise is due to Allah, Lord of the worlds."
+              </div>
+            </div>
+
+            <!-- Live Audio Recitation Player -->
+            <div class="audio-reciter-bar">
+              <div class="reciter-info">
+                <div class="reciter-avatar">
+                  <i class="fa-solid fa-microphone"></i>
+                </div>
+                <div>
+                  <div class="reciter-name">Tajweed Pronunciation Sample</div>
+                  <div class="reciter-sub">Sheikh Mishary Rashid Alafasy &bull; Hafs an Asim</div>
+                </div>
+              </div>
+              <button type="button" class="audio-play-btn" id="heroAudioToggle" title="Play / Pause Audio Sample" aria-label="Play Recitation Sample">
+                <i class="fa-solid fa-play" id="heroAudioIcon"></i>
+              </button>
+            </div>
+
+            <!-- Tutor Match Indicator -->
+            <div class="tutor-match-row">
+              <div class="tutor-badge-group">
+                <span class="tutor-pill"><i class="fa-solid fa-circle-check"></i> Verified Tutor</span>
+                <span>Ustadha Fatima (Al-Azhar Certified)</span>
+              </div>
+              <div style="color: #F59E0B; font-size: 0.82rem; font-weight: 700;">
+                <i class="fa-solid fa-star"></i> 5.0 (420+ Reviews)
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         GLOBAL REACH & ACADEMY STATS STRIP
+         ========================================================================== -->
+    <section class="stats-banner">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number"><span class="gradient-text">1,500+</span></div>
+            <div class="stat-label">Graduated Students Worldwide</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number"><span class="gradient-text">35+</span></div>
+            <div class="stat-label">Certified Male & Female Scholars</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number"><span class="gradient-text">18+</span></div>
+            <div class="stat-label">Countries (UK, USA, CA, AU, EU)</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number"><span class="gradient-text">99.4%</span></div>
+            <div class="stat-label">Parent & Student Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CORE COURSES SECTION (Clean White & Soft Slate Cards)
+         ========================================================================== -->
+    <section class="courses-section" id="courses">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Comprehensive Curriculum</span>
+          <h2 class="section-title">Structured Online Quran & Islamic Courses</h2>
+          <p class="section-desc">
+            Tailored 1-on-1 learning paths designed for kids, beginners, adults, and sisters. Learn at your own pace with certified Ijazah instructors.
+          </p>
+        </div>
+
+        <!-- Filter Category Tabs -->
+        <div class="course-filter-bar">
+          <button type="button" class="course-filter-btn active" data-filter="all">All Courses (6)</button>
+          <button type="button" class="course-filter-btn" data-filter="kids">Kids & Beginners</button>
+          <button type="button" class="course-filter-btn" data-filter="tajweed">Tajweed & Hifz</button>
+          <button type="button" class="course-filter-btn" data-filter="sisters">Sisters Only</button>
+          <button type="button" class="course-filter-btn" data-filter="islamic">Islamic Studies</button>
+          <button type="button" class="course-filter-btn" data-filter="micro">30-Day Fast Tracks</button>
+        </div>
+
+        <!-- Courses Grid -->
+        <div class="courses-grid">
+          
+          <!-- Course 1: Noorani Qaida & Noor Al Bayan -->
+          <article class="course-card" data-category="kids">
+            <div class="course-card-top">
+              <div class="course-badge-row">
+                <span class="course-audience-tag kids">Beginners & Kids</span>
+                <span class="course-duration"><i class="fa-regular fa-clock"></i> 2 - 3 Months</span>
+              </div>
+              <div class="course-arabic-title">القاعدة النورانية ونور البيان</div>
+              <h3 class="course-title">Noorani Qaida & Noor Al Bayan</h3>
+              <p class="course-desc">
+                The ultimate foundation for kids and complete beginners to master Arabic letters, proper articulation points (Makharij), and short vowels.
+              </p>
+            </div>
+            <div class="course-card-body">
+              <div class="course-outcomes-heading">Key Learning Outcomes:</div>
+              <ul class="course-outcomes-list">
+                <li><i class="fa-solid fa-check-circle"></i> Master Arabic alphabet with precise Makharij</li>
+                <li><i class="fa-solid fa-check-circle"></i> Correct pronunciation of Harakat, Tanween & Sukoon</li>
+                <li><i class="fa-solid fa-check-circle"></i> Connecting letters into words & full sentences</li>
+                <li><i class="fa-solid fa-check-circle"></i> Smooth transition into direct Quranic reading</li>
+              </ul>
+            </div>
+            <div class="course-card-footer">
+              <button type="button" class="btn btn-primary course-trial-cta open-trial-modal-btn" data-course="Noorani Qaida & Noor Al Bayan">
+                <span>Book Free Trial</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Course 2: Quran Reading with Tajweed (Nazra) -->
+          <article class="course-card" data-category="tajweed">
+            <div class="course-card-top">
+              <div class="course-badge-row">
+                <span class="course-audience-tag">All Ages & Levels</span>
+                <span class="course-duration"><i class="fa-regular fa-clock"></i> 3 - 6 Months</span>
+              </div>
+              <div class="course-arabic-title">قراءة القرآن بالتجويد (ناظرة)</div>
+              <h3 class="course-title">Quran Reading with Tajweed (Nazra)</h3>
+              <p class="course-desc">
+                Recite the Holy Quran fluently with classical Tajweed rules as recited by Prophet Muhammad (PBUH) under certified Ijazah scholars.
+              </p>
+            </div>
+            <div class="course-card-body">
+              <div class="course-outcomes-heading">Key Learning Outcomes:</div>
+              <ul class="course-outcomes-list">
+                <li><i class="fa-solid fa-check-circle"></i> Fluent recitation without hesitation or errors</li>
+                <li><i class="fa-solid fa-check-circle"></i> Rules of Noon & Meem Sakinah, Ghunnah & Ikhfa</li>
+                <li><i class="fa-solid fa-check-circle"></i> Madd prolongation (2, 4, 6 counts) & Qalqalah</li>
+                <li><i class="fa-solid fa-check-circle"></i> Ahkam al-Waqf (proper stopping and starting rules)</li>
+              </ul>
+            </div>
+            <div class="course-card-footer">
+              <button type="button" class="btn btn-primary course-trial-cta open-trial-modal-btn" data-course="Quran Reading with Tajweed (Nazra)">
+                <span>Book Free Trial</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Course 3: Quran Memorization (Hifz Program) -->
+          <article class="course-card" data-category="tajweed hifz">
+            <div class="course-card-top">
+              <div class="course-badge-row">
+                <span class="course-audience-tag hifz">Personalized Pace</span>
+                <span class="course-duration"><i class="fa-regular fa-clock"></i> 6 - 24 Months</span>
+              </div>
+              <div class="course-arabic-title">برنامج تحفيظ القرآن الكريم</div>
+              <h3 class="course-title">Quran Memorization (Hifz Program)</h3>
+              <p class="course-desc">
+                Structured memorization paths for Juz Amma, selected Surahs (Yasin, Al-Mulk, Al-Kahf), or complete 30 Ajza with spaced repetition.
+              </p>
+            </div>
+            <div class="course-card-body">
+              <div class="course-outcomes-heading">Key Learning Outcomes:</div>
+              <ul class="course-outcomes-list">
+                <li><i class="fa-solid fa-check-circle"></i> Daily Sabaq (new lesson) memorization techniques</li>
+                <li><i class="fa-solid fa-check-circle"></i> Sabqi & Manzil (structured revision systems)</li>
+                <li><i class="fa-solid fa-check-circle"></i> Spaced-repetition tracking to prevent forgetting</li>
+                <li><i class="fa-solid fa-check-circle"></i> Regular tests & official Hifz certification</li>
+              </ul>
+            </div>
+            <div class="course-card-footer">
+              <button type="button" class="btn btn-primary course-trial-cta open-trial-modal-btn" data-course="Quran Memorization (Hifz Program)">
+                <span>Book Free Trial</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Course 4: Dedicated Classes for Sisters & Women -->
+          <article class="course-card" data-category="sisters">
+            <div class="course-card-top">
+              <div class="course-badge-row">
+                <span class="course-audience-tag sisters">Sisters & Daughters</span>
+                <span class="course-duration"><i class="fa-regular fa-clock"></i> Flexible Duration</span>
+              </div>
+              <div class="course-arabic-title">دروس خاصة بالأخوات والفتيات</div>
+              <h3 class="course-title">Dedicated Classes for Sisters & Women</h3>
+              <p class="course-desc">
+                A comfortable, 100% private 1-on-1 sanctuary taught exclusively by qualified female Ustadhas and Alimahs with complete privacy.
+              </p>
+            </div>
+            <div class="course-card-body">
+              <div class="course-outcomes-heading">Key Learning Outcomes:</div>
+              <ul class="course-outcomes-list">
+                <li><i class="fa-solid fa-check-circle"></i> 1-on-1 private instruction with certified female tutors</li>
+                <li><i class="fa-solid fa-check-circle"></i> Safe, supportive environment for sisters & young girls</li>
+                <li><i class="fa-solid fa-check-circle"></i> Flexible scheduling around family & work commitments</li>
+                <li><i class="fa-solid fa-check-circle"></i> Option for Qaida, Nazra, Hifz, or Fiqh of Women</li>
+              </ul>
+            </div>
+            <div class="course-card-footer">
+              <button type="button" class="btn btn-primary course-trial-cta open-trial-modal-btn" data-course="Dedicated Classes for Sisters & Women">
+                <span>Book Free Trial</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Course 5: Basic Islamic Studies & Daily Duas -->
+          <article class="course-card" data-category="islamic kids">
+            <div class="course-card-top">
+              <div class="course-badge-row">
+                <span class="course-audience-tag">Kids & Teens</span>
+                <span class="course-duration"><i class="fa-regular fa-clock"></i> 3 - 6 Months</span>
+              </div>
+              <div class="course-arabic-title">الدراسات الإسلامية والأدعية المأثورة</div>
+              <h3 class="course-title">Basic Islamic Studies & Daily Duas</h3>
+              <p class="course-desc">
+                Nurture strong Islamic values with step-by-step Salah, Wudu, 6 Kalimas, Masnoon Duas, inspiring Seerah stories, and Islamic manners (Adab).
+              </p>
+            </div>
+            <div class="course-card-body">
+              <div class="course-outcomes-heading">Key Learning Outcomes:</div>
+              <ul class="course-outcomes-list">
+                <li><i class="fa-solid fa-check-circle"></i> Step-by-step practical Salah & Wudu demonstration</li>
+                <li><i class="fa-solid fa-check-circle"></i> Memorize 6 Kalimas & 40 daily Masnoon Duas</li>
+                <li><i class="fa-solid fa-check-circle"></i> Stories of the Prophets (Seerah) & Companions</li>
+                <li><i class="fa-solid fa-check-circle"></i> Islamic etiquette: respect for parents, honesty & kindness</li>
+              </ul>
+            </div>
+            <div class="course-card-footer">
+              <button type="button" class="btn btn-primary course-trial-cta open-trial-modal-btn" data-course="Basic Islamic Studies & Daily Duas">
+                <span>Book Free Trial</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Course 6: Short Micro-Courses (30-Day Tracks) -->
+          <article class="course-card" data-category="micro">
+            <div class="course-card-top">
+              <div class="course-badge-row">
+                <span class="course-audience-tag micro">30-Day Intensive</span>
+                <span class="course-duration"><i class="fa-regular fa-clock"></i> 30 Days</span>
+              </div>
+              <div class="course-arabic-title">دورات مكثفة (٣٠ يومًا)</div>
+              <h3 class="course-title">Short Micro-Courses (30-Day Tracks)</h3>
+              <p class="course-desc">
+                High-impact, accelerated 30-day focus tracks: <em>"Learn Salah in 30 Days"</em> and <em>"Tafsir & Meaning of Juz Amma"</em>.
+              </p>
+            </div>
+            <div class="course-card-body">
+              <div class="course-outcomes-heading">Key Learning Outcomes:</div>
+              <ul class="course-outcomes-list">
+                <li><i class="fa-solid fa-check-circle"></i> <strong>Learn Salah in 30 Days:</strong> Positions, Arabic words & translations</li>
+                <li><i class="fa-solid fa-check-circle"></i> Conditions, pillars, Sunnahs & invalidators of prayer</li>
+                <li><i class="fa-solid fa-check-circle"></i> <strong>Tafsir of Juz Amma:</strong> Word-for-word translation & context</li>
+                <li><i class="fa-solid fa-check-circle"></i> Connect deeply with what you recite in daily prayers</li>
+              </ul>
+            </div>
+            <div class="course-card-footer">
+              <button type="button" class="btn btn-primary course-trial-cta open-trial-modal-btn" data-course="Short Micro-Courses (30-Day Tracks)">
+                <span>Book Free Trial</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WHY CHOOSE MA'HAD UL BAARI (Differentiator Section)
+         ========================================================================== -->
+    <section class="why-us-section dark-section" id="why-us">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag light">The Ma'had Ul Baari Difference</span>
+          <h2 class="section-title">Why Muslim Families Worldwide Choose Us</h2>
+          <p class="section-desc">
+            We combine classical Islamic scholarship with modern interactive digital tools to deliver an engaging, accountable, and world-class learning experience.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          
+          <div class="why-card">
+            <div class="why-icon-box">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3 class="why-title">Interactive Digital Mushaf</h3>
+            <p class="why-desc">
+              Real-time screen sharing with live verse highlighting, Tajweed color-coding, and interactive pen annotations so children never lose their spot.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon-box">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3 class="why-title">Kids' Progress & Milestone Rewards</h3>
+            <p class="why-desc">
+              Structured monthly evaluations, transparent parent progress reports, star badges, and verified graduation certificates to celebrate your child's success.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon-box">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="why-title">Substitute Teacher Guarantee</h3>
+            <p class="why-desc">
+              Never miss a lesson. If your primary tutor has an unexpected emergency, our verified substitute teacher system ensures seamless continuity.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon-box">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+            <h3 class="why-title">Family & Sibling Discounts</h3>
+            <p class="why-desc">
+              We make Islamic education affordable for the whole household with an instant 20% discount on 2nd and 3rd enrolled children.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE DIGITAL MUSHAF & TAJWEED RECITATION EXPERIENCE
+         ========================================================================== -->
+    <section class="interactive-showcase-section" id="tajweed-showcase">
+      <div class="container showcase-layout">
+        
+        <div class="showcase-content">
+          <span class="section-tag">Interactive Classroom Technology</span>
+          <h2 class="showcase-title">Experience Our Live Tajweed Highlighting Technology</h2>
+          <p class="showcase-desc">
+            During live sessions, our teachers use digital color-coded Mushaf software. Students learn to spot Madd, Ghunnah, and Qalqalah effortlessly through visual reinforcement.
+          </p>
+
+          <div class="tajweed-rules-legend">
+            <div class="rule-legend-item">
+              <span class="rule-indicator red"></span>
+              <div>
+                <strong>Madd (Prolongation)</strong>
+                <div style="font-size: 0.75rem; color: #94A3B8;">Hold for 4 to 6 counts</div>
+              </div>
+            </div>
+
+            <div class="rule-legend-item">
+              <span class="rule-indicator green"></span>
+              <div>
+                <strong>Ghunnah / Ikhfa (Nasalization)</strong>
+                <div style="font-size: 0.75rem; color: #94A3B8;">Nasal sound for 2 counts</div>
+              </div>
+            </div>
+
+            <div class="rule-legend-item">
+              <span class="rule-indicator blue"></span>
+              <div>
+                <strong>Qalqalah (Echo Sound)</strong>
+                <div style="font-size: 0.75rem; color: #94A3B8;">Bouncing letters (ق، ط، ب، ج، د)</div>
+              </div>
+            </div>
+
+            <div class="rule-legend-item">
+              <span class="rule-indicator gray"></span>
+              <div>
+                <strong>Silent Letters</strong>
+                <div style="font-size: 0.75rem; color: #94A3B8;">Skipped in continuous reading</div>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-primary open-trial-modal-btn">
+            <i class="fa-solid fa-headset"></i>
+            <span>Experience Live in Free Trial</span>
+          </button>
+        </div>
+
+        <!-- Interactive Quran Audio Player Showcase -->
+        <div class="interactive-quran-box">
+          <div class="quran-header-bar">
+            <div>
+              <h4 style="color: #FFFFFF; font-size: 1.1rem; margin-bottom: 2px;">Interactive Mushaf Preview</h4>
+              <p style="color: #94A3B8; font-size: 0.8rem;">Click any Ayah to listen to Tajweed recitation</p>
+            </div>
+            
+            <div class="quran-surah-selector">
+              <button type="button" class="surah-tab-btn active" data-surah="fatiha">Al-Fatiha</button>
+              <button type="button" class="surah-tab-btn" data-surah="ikhlas">Al-Ikhlas</button>
+            </div>
+          </div>
+
+          <!-- Interactive Verses Container -->
+          <div class="interactive-verses-container" id="interactiveVersesList">
+            <!-- Dynamically populated by app.js with real text and audio triggers -->
+          </div>
+
+          <!-- Player Controls Footer -->
+          <div class="quran-controls-footer">
+            <div class="player-status-text" id="playerStatusText">
+              <i class="fa-solid fa-volume-high" style="color: #38BDF8;"></i>
+              <span>Ready &bull; Click Play or select an Ayah</span>
+            </div>
+            <button type="button" class="main-play-toggle-btn" id="mainAudioPlayToggle">
+              <i class="fa-solid fa-play" id="mainPlayIcon"></i>
+              <span id="mainPlayBtnText">Play Surah</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         DEDICATED SISTERS & FEMALE QURAN TUTORS SECTION
+         ========================================================================== -->
+    <section class="sisters-section" id="female-tutors">
+      <div class="container">
+        
+        <div class="sisters-banner-box">
+          <div class="sisters-layout">
+            
+            <div class="sisters-copy">
+              <span class="sisters-tag">
+                <i class="fa-solid fa-shield-heart"></i>
+                100% Privacy & Comfort
+              </span>
+              <h2 class="sisters-title">Dedicated Quran Classes for Sisters & Daughters</h2>
+              <p class="sisters-desc">
+                We understand the importance of complete comfort, modesty, and privacy. Sisters and young girls can learn directly from certified female Hafizat and Alimah scholars who are fluent in English and trained in modern pedagogy.
+              </p>
+
+              <div class="sisters-features-list">
+                <div class="sister-feat-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Exclusively female instructors</span>
+                </div>
+                <div class="sister-feat-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Camera-optional privacy settings</span>
+                </div>
+                <div class="sister-feat-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Patient, gentle teaching style</span>
+                </div>
+                <div class="sister-feat-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Specialized in Tajweed & Hifz for sisters</span>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <button type="button" class="btn btn-primary open-trial-modal-btn" data-tutor-pref="female">
+                  <i class="fa-solid fa-user-check"></i>
+                  <span>Request a Female Tutor</span>
+                </button>
+                <a href="https://wa.me/message/HISPC5DQYRWWP1?text=Assalamu%20Alaikum,%20I%20am%20interested%20in%20classes%20with%20a%20Female%20Quran%20Teacher" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>Chat with Sisters Coordinator</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Sisters Tutors Preview -->
+            <div class="sisters-card-stack">
+              
+              <div class="tutor-profile-card">
+                <div class="tutor-avatar-icon">
+                  <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <div class="tutor-profile-meta">
+                  <h4>Ustadha Maryam Al-Azhari</h4>
+                  <p>Ijazah in Hafs &bull; Al-Azhar University Graduate</p>
+                  <div class="tutor-badge-tags">
+                    <span class="tutor-tag">Fluent English</span>
+                    <span class="tutor-tag">7+ Yrs Experience</span>
+                    <span class="tutor-tag" style="color: #34D399;">Available Now</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tutor-profile-card">
+                <div class="tutor-avatar-icon">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="tutor-profile-meta">
+                  <h4>Hafiza Ayesha Siddiqa</h4>
+                  <p>Certified Hafiza of the Holy Quran &bull; Noorani Qaida Specialist</p>
+                  <div class="tutor-badge-tags">
+                    <span class="tutor-tag">Kids Specialist</span>
+                    <span class="tutor-tag">Sisters Tajweed</span>
+                    <span class="tutor-tag" style="color: #38BDF8;">Top Rated</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tutor-profile-card">
+                <div class="tutor-avatar-icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="tutor-profile-meta">
+                  <h4>Ustadha Zainab Noor</h4>
+                  <p>Alimah Degree &bull; Basic Islamic Studies & Daily Duas Lead</p>
+                  <div class="tutor-badge-tags">
+                    <span class="tutor-tag">Seerah & Adab</span>
+                    <span class="tutor-tag">Arabic Basics</span>
+                    <span class="tutor-tag" style="color: #F59E0B;"><i class="fa-solid fa-star"></i> 5.0</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HOW IT WORKS (3-Step Visual Timeline)
+         ========================================================================== -->
+    <section class="how-it-works-section" id="how-it-works">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Simple & Hassle-Free</span>
+          <h2 class="section-title">How It Works in 3 Easy Steps</h2>
+          <p class="section-desc">
+            Getting started with your personalized Quran classes takes less than two minutes. No payment required up front.
+          </p>
+        </div>
+
+        <div class="steps-timeline-grid">
+          
+          <div class="step-card">
+            <div class="step-number-circle">1</div>
+            <h3 class="step-title">Book a Free 30-Minute Trial</h3>
+            <p class="step-desc">
+              Submit our quick form or message us on WhatsApp. Our academic advisor will schedule a convenient 30-minute free trial and Tajweed evaluation session.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number-circle">2</div>
+            <h3 class="step-title">Choose Schedule & Tutor</h3>
+            <p class="step-desc">
+              Select your preferred days, timeslot in your local timezone, and your tutor preference (Male teacher, Female teacher, or English/Urdu/Arabic speaker).
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number-circle">3</div>
+            <h3 class="step-title">Start 1-on-1 Live Classes</h3>
+            <p class="step-desc">
+              Connect effortlessly via Zoom or Google Meet from your laptop, tablet, or phone. Enjoy monthly evaluations, parent reports, and continuous tracking.
+            </p>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <button type="button" class="btn btn-primary btn-lg open-trial-modal-btn">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Schedule Step 1: Your Free Trial Now</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TRANSPARENT PRICING PLANS (Dynamic Currency Switcher & Sibling Discount)
+         ========================================================================== -->
+    <section class="pricing-section dark-section" id="pricing">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag light">Honest & Affordable</span>
+          <h2 class="section-title">Transparent Monthly Pricing Plans</h2>
+          <p class="section-desc">
+            No long-term contracts. Cancel or reschedule anytime. Choose the plan that best fits your weekly routine.
+          </p>
+        </div>
+
+        <!-- Sibling Discount Interactive Banner -->
+        <div class="pricing-controls-wrap">
+          <div class="sibling-discount-bar">
+            <span class="sibling-pill">Special Offer</span>
+            <span class="sibling-text">Enrolling 2 or more siblings?</span>
+            <label class="switch-label">
+              <input type="checkbox" id="siblingDiscountToggle" class="switch-input">
+              <span class="switch-slider"></span>
+              <span style="font-size: 0.88rem; font-weight: 700; color: #10B981;">Apply 20% Sibling Discount</span>
+            </label>
+          </div>
+
+          <div style="font-size: 0.85rem; color: #94A3B8;">
+            Prices automatically updated in: <strong id="currentCurrencyLabel" style="color: #38BDF8;">USD ($)</strong> &bull; All plans include dedicated 1-on-1 tutor
+          </div>
+        </div>
+
+        <!-- Pricing Cards Grid -->
+        <div class="pricing-grid">
+          
+          <!-- Plan 1: Starter Plan -->
+          <div class="pricing-card" data-plan="starter">
+            <div class="pricing-plan-title">Starter Plan</div>
+            <div class="pricing-plan-subtitle">Ideal for beginners and young children</div>
+
+            <div class="pricing-price-box">
+              <div class="price-row">
+                <span class="price-currency" data-currency-symbol>$</span>
+                <span class="price-amount" id="priceStarter">35</span>
+                <span class="price-frequency">/month</span>
+              </div>
+              <div class="price-original-struck" id="strikeStarter">$44/mo</div>
+              <div class="pricing-classes-meta">2 Classes / Week &bull; 8 Classes / Month</div>
+            </div>
+
+            <ul class="pricing-features-list">
+              <li><i class="fa-solid fa-check"></i> 1-on-1 Dedicated Tutor (Male or Female)</li>
+              <li><i class="fa-solid fa-check"></i> 30-Minute Live Interactive Sessions</li>
+              <li><i class="fa-solid fa-check"></i> Noorani Qaida or Quran Recitation</li>
+              <li><i class="fa-solid fa-check"></i> Flexible 24/7 Rescheduling Support</li>
+              <li><i class="fa-solid fa-check"></i> Monthly Progress Report for Parents</li>
+              <li><i class="fa-solid fa-check"></i> Free 30-Min Assessment Included</li>
+            </ul>
+
+            <button type="button" class="btn btn-silver pricing-card-cta open-trial-modal-btn" data-plan-name="Starter Plan (2 Classes/Week)">
+              <span>Select Starter Plan</span>
+            </button>
+          </div>
+
+          <!-- Plan 2: Standard Plan (Most Popular) -->
+          <div class="pricing-card featured" data-plan="standard">
+            <div class="featured-popular-badge">Most Popular Choice</div>
+            <div class="pricing-plan-title">Standard Plan</div>
+            <div class="pricing-plan-subtitle">Balanced, steady progress for all ages</div>
+
+            <div class="pricing-price-box">
+              <div class="price-row">
+                <span class="price-currency" data-currency-symbol>$</span>
+                <span class="price-amount" id="priceStandard">50</span>
+                <span class="price-frequency">/month</span>
+              </div>
+              <div class="price-original-struck" id="strikeStandard">$62/mo</div>
+              <div class="pricing-classes-meta">3 Classes / Week &bull; 12 Classes / Month</div>
+            </div>
+
+            <ul class="pricing-features-list">
+              <li><i class="fa-solid fa-check"></i> 1-on-1 Dedicated Male or Female Tutor</li>
+              <li><i class="fa-solid fa-check"></i> 30-Minute Live Interactive Sessions</li>
+              <li><i class="fa-solid fa-check"></i> Quran Recitation with Tajweed & Daily Duas</li>
+              <li><i class="fa-solid fa-check"></i> Priority Rescheduling & Substitute Guarantee</li>
+              <li><i class="fa-solid fa-check"></i> Monthly Parent Evaluation Call</li>
+              <li><i class="fa-solid fa-check"></i> Official Course Completion Certificate</li>
+            </ul>
+
+            <button type="button" class="btn btn-primary pricing-card-cta open-trial-modal-btn" data-plan-name="Standard Plan (3 Classes/Week - Most Popular)">
+              <span>Select Standard Plan</span>
+            </button>
+          </div>
+
+          <!-- Plan 3: Intensive / Hifz Plan -->
+          <div class="pricing-card" data-plan="intensive">
+            <div class="pricing-plan-title">Intensive / Hifz</div>
+            <div class="pricing-plan-subtitle">Fast-track memorization & fluent recitation</div>
+
+            <div class="pricing-price-box">
+              <div class="price-row">
+                <span class="price-currency" data-currency-symbol>$</span>
+                <span class="price-amount" id="priceIntensive">80</span>
+                <span class="price-frequency">/month</span>
+              </div>
+              <div class="price-original-struck" id="strikeIntensive">$100/mo</div>
+              <div class="pricing-classes-meta">5 Classes / Week &bull; 20 Classes / Month</div>
+            </div>
+
+            <ul class="pricing-features-list">
+              <li><i class="fa-solid fa-check"></i> 1-on-1 Certified Hafiz / Scholar Tutor</li>
+              <li><i class="fa-solid fa-check"></i> 30 to 45-Minute Intensive Sessions</li>
+              <li><i class="fa-solid fa-check"></i> Structured Sabaq, Sabqi & Manzil System</li>
+              <li><i class="fa-solid fa-check"></i> Spaced Repetition Revision Tracking</li>
+              <li><i class="fa-solid fa-check"></i> Bi-Weekly Parent Progress Check-in</li>
+              <li><i class="fa-solid fa-check"></i> Official Hifz Ijazah Path & Sanad</li>
+            </ul>
+
+            <button type="button" class="btn btn-silver pricing-card-cta open-trial-modal-btn" data-plan-name="Intensive / Hifz Plan (5 Classes/Week)">
+              <span>Select Intensive Plan</span>
+            </button>
+          </div>
+
+          <!-- Plan 4: Custom Weekend-Only Plan -->
+          <div class="pricing-card" data-plan="weekend">
+            <div class="pricing-plan-title">Weekend-Only</div>
+            <div class="pricing-plan-subtitle">Designed for busy school/work schedules</div>
+
+            <div class="pricing-price-box">
+              <div class="price-row">
+                <span class="price-currency" data-currency-symbol>$</span>
+                <span class="price-amount" id="priceWeekend">40</span>
+                <span class="price-frequency">/month</span>
+              </div>
+              <div class="price-original-struck" id="strikeWeekend">$50/mo</div>
+              <div class="pricing-classes-meta">Saturday & Sunday &bull; 8 Classes / Month (45 min)</div>
+            </div>
+
+            <ul class="pricing-features-list">
+              <li><i class="fa-solid fa-check"></i> Saturday & Sunday 45-Minute Sessions</li>
+              <li><i class="fa-solid fa-check"></i> Zero weekday homework interference</li>
+              <li><i class="fa-solid fa-check"></i> Comprehensive Tajweed + Islamic Studies</li>
+              <li><i class="fa-solid fa-check"></i> Dedicated Weekend Male/Female Scholar</li>
+              <li><i class="fa-solid fa-check"></i> Monthly Progress Report & Quizzes</li>
+              <li><i class="fa-solid fa-check"></i> Free 30-Min Assessment Included</li>
+            </ul>
+
+            <button type="button" class="btn btn-silver pricing-card-cta open-trial-modal-btn" data-plan-name="Weekend-Only Plan (Sat & Sun)">
+              <span>Select Weekend Plan</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE "BOOK YOUR FREE TRIAL CLASS" IN-PAGE FORM & MODAL
+         ========================================================================== -->
+    <section class="trial-form-section" id="book-trial">
+      <div class="container">
+        
+        <div class="trial-form-card">
+          
+          <!-- Left Side: Brand Guarantee & Contact Details -->
+          <div class="trial-form-sidebar">
+            <div class="trial-sidebar-top">
+              <div class="brand-identity" style="margin-bottom: 1.5rem;">
+                <img src="assets/logo.png" alt="Logo" style="width: 44px; height: 44px;">
+                <div>
+                  <div style="font-weight: 800; font-size: 1.15rem; color: #fff;">MA'HAD UL BAARI</div>
+                  <div style="font-size: 0.7rem; color: #94A3B8; letter-spacing: 1px;">ONLINE ACADEMY</div>
+                </div>
+              </div>
+
+              <h3>Book Your Free 30-Minute Trial Class</h3>
+              <p>
+                Experience our 1-on-1 teaching quality firsthand. Receive a comprehensive Tajweed assessment from a certified scholar with zero financial commitment.
+              </p>
+
+              <div class="trial-perks-list">
+                <div class="trial-perk-item">
+                  <div class="trial-perk-icon"><i class="fa-solid fa-credit-card"></i></div>
+                  <div class="trial-perk-text">
+                    <h5>No Credit Card Required</h5>
+                    <p>100% complimentary trial. No auto-charges ever.</p>
+                  </div>
+                </div>
+
+                <div class="trial-perk-item">
+                  <div class="trial-perk-icon"><i class="fa-solid fa-user-shield"></i></div>
+                  <div class="trial-perk-text">
+                    <h5>Your Choice of Tutor</h5>
+                    <p>Dedicated female tutors available for sisters and daughters.</p>
+                  </div>
+                </div>
+
+                <div class="trial-perk-item">
+                  <div class="trial-perk-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                  <div class="trial-perk-text">
+                    <h5>Matches Your Timezone</h5>
+                    <p>Flexible timings around UK, USA, Canada, Australia and Europe.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="trial-sidebar-footer">
+              <div>Prefer instant booking?</div>
+              <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i> Chat directly on WhatsApp: +92 320 1291147
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Side: Interactive Booking Form -->
+          <div class="trial-form-main">
+            <h3 style="font-size: 1.6rem; color: #0F1D2F; margin-bottom: 0.4rem;">Student Information</h3>
+            <p style="color: #64748B; font-size: 0.9rem; margin-bottom: 2rem;">Fill in the details below to book your free evaluation.</p>
+
+            <form id="inPageTrialForm">
+              <div class="form-grid">
+                
+                <!-- Student / Parent Name -->
+                <div class="form-group full-width">
+                  <label class="form-label" for="formFullName">Student or Parent Full Name <span class="req">*</span></label>
+                  <input type="text" id="formFullName" class="form-input" placeholder="e.g. Brother Zaid / Sister Amina" required>
+                </div>
+
+                <!-- Email Address -->
+                <div class="form-group">
+                  <label class="form-label" for="formEmail">Email Address <span class="req">*</span></label>
+                  <input type="email" id="formEmail" class="form-input" placeholder="name@example.com" required>
+                </div>
+
+                <!-- WhatsApp Number with Country Code Selector -->
+                <div class="form-group">
+                  <label class="form-label" for="formPhone">WhatsApp Number <span class="req">*</span></label>
+                  <div class="phone-input-group">
+                    <select id="formCountryCode" class="form-select">
+                      <option value="+44">🇬🇧 UK (+44)</option>
+                      <option value="+1" selected>🇺🇸/🇨🇦 USA/CA (+1)</option>
+                      <option value="+61">🇦🇺 AUS (+61)</option>
+                      <option value="+49">🇩🇪 GER (+49)</option>
+                      <option value="+33">🇫🇷 FRA (+33)</option>
+                      <option value="+971">🇦🇪 UAE (+971)</option>
+                      <option value="+966">🇸🇦 KSA (+966)</option>
+                      <option value="+92">🇵🇰 PAK (+92)</option>
+                      <option value="+OTHER">🌍 Other</option>
+                    </select>
+                    <input type="tel" id="formPhone" class="form-input" placeholder="Phone / WhatsApp" required>
+                  </div>
+                </div>
+
+                <!-- Student Age Group -->
+                <div class="form-group">
+                  <label class="form-label" for="formAgeGroup">Student Age Group <span class="req">*</span></label>
+                  <select id="formAgeGroup" class="form-select" required>
+                    <option value="" disabled selected>Select age group...</option>
+                    <option value="Child (4–12 Years)">Child (4–12 Years)</option>
+                    <option value="Teen (13–17 Years)">Teen (13–17 Years)</option>
+                    <option value="Adult (18+ Years)">Adult (18+ Years)</option>
+                  </select>
+                </div>
+
+                <!-- Preferred Course -->
+                <div class="form-group">
+                  <label class="form-label" for="formCourse">Preferred Course <span class="req">*</span></label>
+                  <select id="formCourse" class="form-select" required>
+                    <option value="Noorani Qaida & Noor Al Bayan (Beginners)">Noorani Qaida & Noor Al Bayan (Beginners)</option>
+                    <option value="Quran Reading with Tajweed (Nazra)" selected>Quran Reading with Tajweed (Nazra)</option>
+                    <option value="Quran Memorization (Hifz Program)">Quran Memorization (Hifz Program)</option>
+                    <option value="Dedicated Classes for Sisters & Women">Dedicated Classes for Sisters & Women</option>
+                    <option value="Basic Islamic Studies & Daily Duas">Basic Islamic Studies & Daily Duas</option>
+                    <option value="Learn Salah in 30 Days">Learn Salah in 30 Days (Fast-Track)</option>
+                    <option value="Tafsir & Meaning of Juz Amma">Tafsir & Meaning of Juz Amma</option>
+                  </select>
+                </div>
+
+                <!-- Tutor Gender Preference -->
+                <div class="form-group full-width">
+                  <label class="form-label">Tutor Preference <span class="req">*</span></label>
+                  <div class="radio-pill-group">
+                    <label class="radio-pill-label">
+                      <input type="radio" name="tutorGender" value="Female Teacher" checked>
+                      <i class="fa-solid fa-venus"></i>
+                      <span>Female Teacher</span>
+                    </label>
+                    <label class="radio-pill-label">
+                      <input type="radio" name="tutorGender" value="Male Teacher">
+                      <i class="fa-solid fa-mars"></i>
+                      <span>Male Teacher</span>
+                    </label>
+                    <label class="radio-pill-label">
+                      <input type="radio" name="tutorGender" value="Either / First Available">
+                      <i class="fa-solid fa-user-group"></i>
+                      <span>Either / Available</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Preferred Timezone & Days -->
+                <div class="form-group">
+                  <label class="form-label" for="formTimezone">Your Timezone <span class="req">*</span></label>
+                  <select id="formTimezone" class="form-select" required>
+                    <option value="UK (GMT / BST)">United Kingdom (GMT / BST)</option>
+                    <option value="USA Eastern (EST/EDT)" selected>USA Eastern (EST / EDT)</option>
+                    <option value="USA Central (CST/CDT)">USA Central (CST / CDT)</option>
+                    <option value="USA Pacific (PST/PDT)">USA Pacific (PST / PDT)</option>
+                    <option value="Canada (Toronto / EST)">Canada (Toronto / EST)</option>
+                    <option value="Australia (Sydney / AEST)">Australia (Sydney / AEST)</option>
+                    <option value="Europe (CET / CEST)">Europe (CET / CEST)</option>
+                    <option value="Gulf (GST / AST)">Gulf / Middle East</option>
+                    <option value="Other Timezone">Other Timezone</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="formTiming">Preferred Time of Day</label>
+                  <select id="formTiming" class="form-select">
+                    <option value="Morning (8 AM - 12 PM)">Morning (8 AM - 12 PM)</option>
+                    <option value="Afternoon (12 PM - 4 PM)">Afternoon (12 PM - 4 PM)</option>
+                    <option value="Evening (4 PM - 8 PM)" selected>Evening (4 PM - 8 PM)</option>
+                    <option value="Late Evening (8 PM - 11 PM)">Late Evening (8 PM - 11 PM)</option>
+                    <option value="Weekend Mornings">Weekend Mornings</option>
+                  </select>
+                </div>
+
+                <!-- Any Notes or Goals -->
+                <div class="form-group full-width">
+                  <label class="form-label" for="formNotes">Current Level or Learning Goals (Optional)</label>
+                  <textarea id="formNotes" class="form-textarea" rows="2" placeholder="e.g. Child knows Arabic alphabet; wants to learn Tajweed rules..."></textarea>
+                </div>
+
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <span>Submit & Confirm Free Trial Class</span>
+                </button>
+                <div class="form-privacy-note">
+                  <i class="fa-solid fa-lock"></i> Your information is 100% secure and will only be used to schedule your trial class.
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         REALISTIC TESTIMONIALS & PARENT REVIEWS
+         ========================================================================== -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Trusted Globally</span>
+          <h2 class="section-title">What Parents & Students Say About Us</h2>
+          <p class="section-desc">
+            Real feedback from Muslim families studying with Ma'had Ul Baari across the UK, USA, Canada, and Australia.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-quote">
+              "My 8-year-old daughter was struggling with Arabic pronunciation in our local weekend madrasah. Since joining Ma'had Ul Baari with Ustadha Fatima, her Tajweed has improved remarkably. The screen highlighting keeps her completely focused!"
+            </p>
+            <div class="testimonial-author-meta">
+              <span class="author-flag">🇬🇧</span>
+              <div class="author-info">
+                <h5>Sister Maryam Khan</h5>
+                <p>Parent of Zaynab (8 yrs) &bull; London, UK</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-quote">
+              "As a working professional in Texas, finding a Quran teacher who could accommodate my evening schedule was tough. My tutor Sheikh Ahmad is punctual, patient, and exceptionally knowledgeable. Highly recommend their 3-day plan!"
+            </p>
+            <div class="testimonial-author-meta">
+              <span class="author-flag">🇺🇸</span>
+              <div class="author-info">
+                <h5>Brother Tariq Mansoor</h5>
+                <p>Adult Nazra & Tajweed Student &bull; Dallas, USA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-quote">
+              "We enrolled both our sons (ages 7 and 11) using the 20% sibling discount. The monthly progress reports give us total visibility into what they learned. They have now memorized 15 Surahs with proper Tajweed!"
+            </p>
+            <div class="testimonial-author-meta">
+              <span class="author-flag">🇦🇺</span>
+              <div class="author-info">
+                <h5>Dr. Imran Siddiqui</h5>
+                <p>Father of 2 Students &bull; Sydney, Australia</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FREQUENTLY ASKED QUESTIONS (FAQ Accordion)
+         ========================================================================== -->
+    <section class="faq-section" id="faq">
+      <div class="container container-narrow">
+        
+        <div class="section-header">
+          <span class="section-tag">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc">
+            Everything you need to know about our free trials, classes, tutors, and payment policies.
+          </p>
+        </div>
+
+        <div class="faq-accordion-wrap">
+          
+          <div class="faq-item active">
+            <button type="button" class="faq-header-btn">
+              <span>How does the 30-Minute Free Trial Class work?</span>
+              <span class="faq-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-body-content">
+              <p>
+                Our free trial is 100% complimentary with no credit card required. After submitting your request, our academic coordinator contacts you via WhatsApp or Email to confirm a time that suits your schedule. During the 30-minute session, the teacher assesses the student's current Arabic or Quranic reading level, demonstrates our interactive digital classroom, and outlines a custom learning plan.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-header-btn">
+              <span>Can I request a qualified female teacher for my daughter or myself?</span>
+              <span class="faq-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-body-content">
+              <p>
+                Yes, absolutely! We have dedicated, certified female tutors (Alimahs and Hafizat) available 24/7 for sisters and young girls. We strictly adhere to Islamic privacy values, and webcams are completely optional for students who prefer voice-only instruction with digital screen sharing.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-header-btn">
+              <span>What software or equipment do we need for classes?</span>
+              <span class="faq-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-body-content">
+              <p>
+                All you need is a reliable internet connection and any smart device — a computer, laptop, iPad/tablet, or smartphone. We conduct live 1-on-1 classes via Zoom or Google Meet. You do not need to purchase any physical books; all Qaida, Tajweed rules, and Quran pages are displayed digitally on screen with live highlighting.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-header-btn">
+              <span>What happens if we need to reschedule or miss a class?</span>
+              <span class="faq-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-body-content">
+              <p>
+                We understand family routines and school exams can fluctuate. If you provide at least 24 hours prior notice via WhatsApp or our student portal, your class can be rescheduled to a make-up slot at no extra charge. Furthermore, if a tutor is ever unwell, our Substitute Teacher Guarantee ensures zero interruption to your studies.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-header-btn">
+              <span>How do payments work and which currencies do you accept?</span>
+              <span class="faq-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-body-content">
+              <p>
+                We accept major international debit and credit cards, PayPal, Stripe, and direct bank transfers. We support multiple global currencies including USD ($), GBP (£), EUR (€), AUD (A$), and CAD (C$). Tuition is billed monthly with no contracts, meaning you can pause or cancel anytime.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-header-btn">
+              <span>How does the 20% Family and Sibling Discount work?</span>
+              <span class="faq-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-body-content">
+              <p>
+                When two or more students from the same household enroll, you receive an immediate 20% discount on the second, third, and fourth student's monthly fee. You can toggle the "Apply 20% Sibling Discount" switch in our pricing section above to view the exact discounted rates!
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CALL TO ACTION STRIP BEFORE FOOTER
+         ========================================================================== -->
+    <section style="background: linear-gradient(135deg, #1565B8 0%, #0D47A1 100%); color: #FFFFFF; padding: 4.5rem 0; text-align: center; border-top: 1px solid rgba(255,255,255,0.2);">
+      <div class="container container-narrow">
+        <h2 style="font-size: 2.2rem; font-weight: 800; color: #FFFFFF; margin-bottom: 1rem;">
+          Begin Your Quranic Journey Today
+        </h2>
+        <p style="font-size: 1.1rem; color: #E2E8F0; margin-bottom: 2.2rem;">
+          Join over 1,500 Muslim students worldwide who are reciting the Book of Allah with beauty and confidence.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <button type="button" class="btn btn-silver btn-lg open-trial-modal-btn" style="background: #FFFFFF; color: #0D47A1; font-weight: 800; border: none;">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Book Your Free Trial Class</span>
+          </button>
+          <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER (Deep Midnight Navy #122032 Background)
+       ========================================================================== -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Brand & Tagline -->
+        <div class="footer-brand-box">
+          <div class="footer-logo-row">
+            <img src="assets/logo.png" alt="Ma'had Ul Baari Logo" class="footer-logo-img">
+            <div>
+              <div class="footer-brand-name">
+                <span class="metallic-silver">MA'HAD</span>
+                <span class="royal-blue">UL BAARI</span>
+              </div>
+              <div style="font-size: 0.68rem; color: #94A3B8; text-transform: uppercase; letter-spacing: 1px;">International Online Academy</div>
+            </div>
+          </div>
+
+          <div class="footer-tagline">"A Global Journey of Islamic Learning"</div>
+          <p class="footer-about-text">
+            Ma'had Ul Baari Online Quran Academy is an international 1-on-1 online Islamic education platform connecting students worldwide with certified male and female scholars for personalized Quran, Tajweed, and Hifz study.
+          </p>
+
+          <div class="footer-social-links">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/share/1QTfyg6W1L/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Follow us on Facebook" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/mahadulbaariacademy?dmpr=eDVodzRhazJycDRv" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Follow us on Instagram" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <!-- TikTok -->
+            <a href="https://www.tiktok.com/@mahad.ul.baari.is?_r=1&_t=ZS-9BV5stSU805" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Follow us on TikTok" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" class="social-icon-btn whatsapp" title="Chat on WhatsApp" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Navigation Links -->
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="#courses"><i class="fa-solid fa-angle-right"></i> All Courses</a></li>
+            <li><a href="#female-tutors"><i class="fa-solid fa-angle-right"></i> Female Quran Tutors</a></li>
+            <li><a href="#tajweed-showcase"><i class="fa-solid fa-angle-right"></i> Digital Mushaf Preview</a></li>
+            <li><a href="#how-it-works"><i class="fa-solid fa-angle-right"></i> How It Works</a></li>
+            <li><a href="#pricing"><i class="fa-solid fa-angle-right"></i> Monthly Pricing Plans</a></li>
+            <li><a href="#faq"><i class="fa-solid fa-angle-right"></i> Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+
+        <!-- Core Courses Links -->
+        <div>
+          <h4 class="footer-heading">Core Programs</h4>
+          <ul class="footer-links-list">
+            <li><a href="#courses"><i class="fa-solid fa-book-quran"></i> Noorani Qaida</a></li>
+            <li><a href="#courses"><i class="fa-solid fa-book-quran"></i> Quran with Tajweed</a></li>
+            <li><a href="#courses"><i class="fa-solid fa-book-quran"></i> Hifz Memorization</a></li>
+            <li><a href="#female-tutors"><i class="fa-solid fa-book-quran"></i> Sisters Quran Classes</a></li>
+            <li><a href="#courses"><i class="fa-solid fa-book-quran"></i> Basic Islamic Studies</a></li>
+            <li><a href="#courses"><i class="fa-solid fa-book-quran"></i> 30-Day Salah Track</a></li>
+            <li><a href="#courses"><i class="fa-solid fa-book-quran"></i> Tafsir of Juz Amma</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Academy Contact Details -->
+        <div>
+          <h4 class="footer-heading">Direct Contact</h4>
+          <div class="footer-contact-details">
+            
+            <div class="contact-detail-row">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div class="contact-detail-text">
+                <h6>WhatsApp / Phone Hotline</h6>
+                <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer">
+                  +92 320 1291147 (03201291147)
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <i class="fa-solid fa-link"></i>
+              <div class="contact-detail-text">
+                <h6>Official WhatsApp Link</h6>
+                <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" style="word-break: break-all;">
+                  wa.me/message/HISPC5DQYRWWP1
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <i class="fa-solid fa-globe"></i>
+              <div class="contact-detail-text">
+                <h6>Global Serving Regions</h6>
+                <p>UK, USA, Canada, Australia, Europe & Gulf</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <i class="fa-solid fa-headset"></i>
+              <div class="contact-detail-text">
+                <h6>Admissions Availability</h6>
+                <p>24 Hours / 7 Days a Week Support</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright & Islamic Blessing -->
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; <span id="currentYear">2026</span> <strong>Ma'had Ul Baari International Online Academy</strong>. All rights reserved.
+        </div>
+        <div class="islamic-blessing-text">
+          جَزَاكُمُ اللَّهُ خَيْرًا (May Allah reward you with goodness)
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING WHATSAPP BUTTON & CHAT BUBBLE
+       ========================================================================== -->
+  <div class="floating-whatsapp-widget" id="floatingWhatsappWidget">
+    <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" class="whatsapp-chat-bubble" title="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp" style="color: #25D366; font-size: 1.1rem;"></i>
+      <span>Need help? Chat with us on WhatsApp</span>
+    </a>
+    <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" title="Direct WhatsApp Chat" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- Mobile Sticky Bottom Action Bar -->
+  <div class="mobile-action-bar">
+    <button type="button" class="btn btn-primary btn-sm open-trial-modal-btn">
+      <i class="fa-regular fa-calendar-check"></i>
+      <span>Free Trial</span>
+    </button>
+    <a href="https://wa.me/message/HISPC5DQYRWWP1" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- ==========================================================================
+       INTERACTIVE TRIAL BOOKING MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="trialModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Modal Hero Header -->
+      <div class="modal-header-hero">
+        <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem;">
+          <img src="assets/logo.png" alt="Logo" style="width: 32px; height: 32px;">
+          <span style="font-weight: 800; font-size: 0.95rem; letter-spacing: 0.5px;">MA'HAD UL BAARI</span>
+        </div>
+        <h3 id="modalTitle">Book Your Free 30-Minute Trial Class</h3>
+        <p>1-on-1 personalized live class &bull; No credit card required &bull; Male or female tutor</p>
+      </div>
+
+      <!-- Modal Body Form -->
+      <div class="modal-body-content" id="modalFormContainer">
+        
+        <form id="modalTrialForm">
+          <div class="form-grid">
+            
+            <div class="form-group full-width">
+              <label class="form-label" for="modalFullName">Student or Parent Full Name <span class="req">*</span></label>
+              <input type="text" id="modalFullName" class="form-input" placeholder="e.g. Brother Zaid / Sister Amina" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalEmail">Email Address <span class="req">*</span></label>
+              <input type="email" id="modalEmail" class="form-input" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalPhone">WhatsApp Number <span class="req">*</span></label>
+              <div class="phone-input-group">
+                <select id="modalCountryCode" class="form-select">
+                  <option value="+44">🇬🇧 UK (+44)</option>
+                  <option value="+1" selected>🇺🇸/🇨🇦 USA/CA (+1)</option>
+                  <option value="+61">🇦🇺 AUS (+61)</option>
+                  <option value="+49">🇩🇪 GER (+49)</option>
+                  <option value="+33">🇫🇷 FRA (+33)</option>
+                  <option value="+971">🇦🇪 UAE (+971)</option>
+                  <option value="+966">🇸🇦 KSA (+966)</option>
+                  <option value="+92">🇵🇰 PAK (+92)</option>
+                  <option value="+OTHER">🌍 Other</option>
+                </select>
+                <input type="tel" id="modalPhone" class="form-input" placeholder="Phone / WhatsApp" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalAgeGroup">Student Age Group <span class="req">*</span></label>
+              <select id="modalAgeGroup" class="form-select" required>
+                <option value="" disabled selected>Select age group...</option>
+                <option value="Child (4–12 Years)">Child (4–12 Years)</option>
+                <option value="Teen (13–17 Years)">Teen (13–17 Years)</option>
+                <option value="Adult (18+ Years)">Adult (18+ Years)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalCourse">Preferred Course <span class="req">*</span></label>
+              <select id="modalCourse" class="form-select" required>
+                <option value="Noorani Qaida & Noor Al Bayan (Beginners)">Noorani Qaida & Noor Al Bayan (Beginners)</option>
+                <option value="Quran Reading with Tajweed (Nazra)" selected>Quran Reading with Tajweed (Nazra)</option>
+                <option value="Quran Memorization (Hifz Program)">Quran Memorization (Hifz Program)</option>
+                <option value="Dedicated Classes for Sisters & Women">Dedicated Classes for Sisters & Women</option>
+                <option value="Basic Islamic Studies & Daily Duas">Basic Islamic Studies & Daily Duas</option>
+                <option value="Learn Salah in 30 Days">Learn Salah in 30 Days (Fast-Track)</option>
+                <option value="Tafsir & Meaning of Juz Amma">Tafsir & Meaning of Juz Amma</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label">Tutor Preference <span class="req">*</span></label>
+              <div class="radio-pill-group">
+                <label class="radio-pill-label">
+                  <input type="radio" name="modalTutorGender" value="Female Teacher" checked>
+                  <i class="fa-solid fa-venus"></i>
+                  <span>Female Teacher</span>
+                </label>
+                <label class="radio-pill-label">
+                  <input type="radio" name="modalTutorGender" value="Male Teacher">
+                  <i class="fa-solid fa-mars"></i>
+                  <span>Male Teacher</span>
+                </label>
+                <label class="radio-pill-label">
+                  <input type="radio" name="modalTutorGender" value="Either / Available">
+                  <i class="fa-solid fa-user-group"></i>
+                  <span>Either / Available</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalTimezone">Timezone <span class="req">*</span></label>
+              <select id="modalTimezone" class="form-select" required>
+                <option value="UK (GMT / BST)">United Kingdom (GMT / BST)</option>
+                <option value="USA Eastern (EST/EDT)" selected>USA Eastern (EST / EDT)</option>
+                <option value="USA Central (CST/CDT)">USA Central (CST / CDT)</option>
+                <option value="USA Pacific (PST/PDT)">USA Pacific (PST / PDT)</option>
+                <option value="Canada (Toronto / EST)">Canada (Toronto / EST)</option>
+                <option value="Australia (Sydney / AEST)">Australia (Sydney / AEST)</option>
+                <option value="Europe (CET / CEST)">Europe (CET / CEST)</option>
+                <option value="Gulf / Middle East">Gulf / Middle East</option>
+                <option value="Other Timezone">Other Timezone</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalTiming">Preferred Time Slot</label>
+              <select id="modalTiming" class="form-select">
+                <option value="Morning (8 AM - 12 PM)">Morning (8 AM - 12 PM)</option>
+                <option value="Afternoon (12 PM - 4 PM)">Afternoon (12 PM - 4 PM)</option>
+                <option value="Evening (4 PM - 8 PM)" selected>Evening (4 PM - 8 PM)</option>
+                <option value="Late Evening (8 PM - 11 PM)">Late Evening (8 PM - 11 PM)</option>
+                <option value="Weekends Only">Weekends Only</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="modalNotes">Any specific goals or background? (Optional)</label>
+              <textarea id="modalNotes" class="form-textarea" rows="2" placeholder="Tell us about the student's prior reading experience..."></textarea>
+            </div>
+
+          </div>
+
+          <div class="form-submit-row">
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Confirm & Schedule Free Trial Class</span>
+            </button>
+            <div class="form-privacy-note">
+              <i class="fa-solid fa-lock"></i> 100% Free &bull; No Credit Card Required &bull; Instant Confirmation
+            </div>
+          </div>
+        </form>
+
+      </div>
+
+      <!-- Success Screen inside Modal (Initially Hidden) -->
+      <div class="modal-body-content" id="modalSuccessContainer" style="display: none;">
+        <div class="success-booking-card">
+          <div class="success-check-icon">
+            <i class="fa-solid fa-check"></i>
+          </div>
+          <h3 class="success-booking-title">Free Trial Class Booked!</h3>
+          <p class="success-booking-desc">
+            Assalamu Alaikum! Your 30-minute free trial and Tajweed assessment request has been recorded. Our academic team will connect with you right away.
+          </p>
+
+          <div class="booking-ticket-box" id="successTicketDetails">
+            <!-- Populated via JavaScript -->
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <a href="#" id="modalDirectWhatsappBtn" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg" style="width: 100%;">
+              <i class="fa-brands fa-whatsapp" style="font-size: 1.3rem;"></i>
+              <span>Send Details via WhatsApp Now</span>
+            </a>
+            <button type="button" class="btn btn-silver" id="modalResetBtn" style="color: #0F1D2F;">
+              <span>Book Another Trial Class</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- JavaScript Application (in js/ folder) -->
+  <script src="js/app.js"></script>
+  <script src="app.js" onerror="this.remove()"></script>
+</body>
+</html>
